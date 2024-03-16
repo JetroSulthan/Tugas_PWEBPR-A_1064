@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_kiribawah{
+    display: flex;
+    gap: 20px;
+}
+
+.container_kiri{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_kanan{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title{
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    font-family: poppins;
+    height: 50px;
+    width: auto;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.box_maskuning{
+    margin-top: 30px;
+    background-color: #FFF4DC;
+    display: flex;
+    height: 180px;
+    width: 235px;
+    margin-left: 131px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_maskuning button{
+    font-family: poppins;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    border-radius: 15px;
+    background-color: #E29A00;
+    height: 37px;
+    width: 173px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+    margin-left: -170px;
+    border: 1px solid transparent;
+}
+
+.maskuning{
+    height: 170px;
+    width: 173.7px;
+    margin-top: 14px;
+}
+
+.tentara{
+    height: 230px;
+    width: 230px;
+    margin-top: -49px;
+}
+
+.box_tentara{
+    display: flex;
+    background-color: #D5FFDD;
+    height: 180px;
+    width: 490px;
+    border-radius: 20px;
+    margin-left: 131px;
+    margin-top: 30px;
+}
+
+.box_tentara h1{
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.box_tentara p{
+    font-size: 14px;
+    font-family: poppins;
+    margin-top: 0px;
+}
+
+.box_tentara button{
+    font-family: poppins;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    border-radius: 15px;
+    background-color: #399349;
+    height: 37px;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid transparent;
+}
+
+.box_mbakpink{
+    display: flex;
+    background-color: #FF5573;
+    height: 180px;
+    width: 235px;
+    border-radius: 20px;
+    margin-left: -250px;
+    margin-top: 230px;
+}
+
+.mbakpink{
+    height: 170px;
+    width: 170px;
+    margin-top: 11.5px;
+    margin-left: 30px;
+}
+
+.box_mbakpink button{
+    font-family: poppins;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    border-radius: 15px;
+    background-color: #FFCED7;
+    height: 37px;
+    width: 173px;
+    margin-top: 135px;
+    margin-left: -170px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+.box_fotografer{
+    border-radius: 20px;
+    background-color: #E2F2FF;
+    display: flex;
+    width: 230px;
+    height: 392px;
+    margin-left: 0px;  
+    margin-top: 30px;
+    align-content: center;
+    justify-items: center;
+}
+
+.fotografer{
+    margin-left: 35px;
+    display: flex;
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+}
+
+.box_fotografer h2{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 205px;
+    margin-left: -166px;
+}
+
+.box_fotografer p{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0px;
+    width: 133px;
+    margin-left: -145px;
+}
+
+.box_fotografer button{
+    font-family: poppins;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #3279AF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    width: 173px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-left: -167px;
+}
+
+.box_besar_kanan{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 24px;
+    background-color: #F4F4F4;
+    display: flex;
+    width: 500px;
+    height: 392px;
+    gap: 20px;
+}
+
+.box_dokter, .box_pilot, .box_ilmuan{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    width: 423px;
+    height: 96px;
+    border: 1px solid #D8D6C1;
+    align-items: center;
+}
+
+.box_dokter img, .box_pilot img, .box_ilmuan img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.box_dokter p, .box_pilot p, .box_ilmuan p{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.box_dokter button, .box_pilot button, .box_ilmuan button{
+    font-family: poppins;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 149px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
+
+.box_bawah{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    height: 180px;
+    width: 500px;
+    background-color: #F4F4F4;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    column-gap: 0px;
+}
+
+.box_bawah img{
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.box_bawah p{
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pembalap{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    height: 221px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.astronot{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    height: 221px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.box_bawah button{
+    font-family: poppins;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #D8D6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
+
+@media (max-width: 425px){
+    *{
+        /* align-content: center; */
+        margin: 0;
+    }
+    
+    .container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container_kiri{
+        /* width: auto; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .container_kiribawah{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    
+    .container_kanan{
+        width: auto;
+        margin-top: 20px;
+        /* margin-left: 10px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .title{
+        margin-top: 20px;
+        font-weight: 700;
+        font-family: poppins;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu{
+        position: fixed;
+        bottom: 0;
+        font-family: poppins;
+        font-size: 14px;
+        height: 70px;
+        width: 425px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+    
+    .box_maskuning{
+        margin-top: 30px;
+        background-color: #FFF4DC;
+        display: flex;
+        height: 221px;
+        width: 289px;
+        margin-left: 0px;
+        border-radius: 20px;
+        align-content: center;
+        justify-items: center;
+    }
+    
+    .box_maskuning button{
+        font-family: poppins;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        display: flex;
+        border-radius: 15px;
+        background-color: #E29A00;
+        height: 45px;
+        width: 212px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: -215px;
+        border: 1px solid transparent;
+    }
+    
+    .maskuning{
+        height: 209px;
+        width: 213px;
+        margin-top: 14px;
+    }
+    
+    .tentara{
+        height: 230px;
+        width: 230px;
+        margin-top: -49px;
+        /* margin-left: -200px; */
+    }
+    
+    .box_tentara{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        background-color: #D5FFDD;
+        height: 299px;
+        width: 289px;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    
+    .box_tentara h1{
+        margin-top: 30px;
+        font-size: 24px;
+        font-family: poppins;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .box_tentara p{
+        font-size: 14px;
+        font-family: poppins;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .box_tentara button{
+        font-family: poppins;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        display: flex;
+        border-radius: 15px;
+        background-color: #399349;
+        height: 45px;
+        width: 212px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -110px;
+        border: 1px solid transparent;
+    }
+    
+    .box_mbakpink{
+        display: flex;
+        background-color: #ffced7;
+        height: 241px;
+        width: 289px;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .mbakpink{
+        height: 227px;
+        width: 209px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
+    .box_mbakpink button{
+        font-family: poppins;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        display: flex;
+        border-radius: 15px;
+        background-color: #FF5573;
+        height: 49px;
+        width: 213px;
+        margin-top: 160px;
+        margin-left: -210px;
+        align-content: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    
+    .box_fotografer{
+        border-radius: 20px;
+        background-color: #E2F2FF;
+        display: flex;
+        width: 289px;
+        height: 314px;
+        margin-left: 0px; 
+        margin-top: 80px; 
+
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fotografer{
+        margin-left: 0px;
+        display: flex;
+        width: 230px;
+        height: 230px;
+        margin-top: -40px;
+    }
+    
+    .box_fotografer h2{
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .box_fotografer p{
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 0px;
+        width: 169px;
+        margin-left: 20px;
+    }
+    
+    .box_fotografer button{
+        font-family: poppins;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        background-color: #3279AF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 212px;
+        border-radius: 15px;
+        border: 1px solid transparent;
+        margin-top: -120px;
+        margin-left: 0px;
+    }
+    
+    .box_besar_kanan{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        width: auto;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .box_dokter, .box_pilot, .box_ilmuan{
+        background-color: #E9E8E2;
+        border-radius: 20px;
+        display: flex;
+        width: 288px;
+        height: 221px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .box_dokter img, .box_pilot img, .box_ilmuan img{
+        height: 213px;
+        width: 213px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    
+    .box_dokter p, .box_pilot p, .box_ilmuan p{
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 0px;
+    }
+    
+    .box_dokter button, .box_pilot button, .box_ilmuan button{
+        font-family: poppins;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        background-color: #D8D6C1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 212px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        margin-top: -60px;
+    }
+    
+    .box_bawah{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 180px;
+        width: 500px;
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-top: 0px;
+        row-gap: 20px;
+    }
+    
+    .pembalap{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        background-color: #FFDBC5;
+        height: 221px;
+        width: 288.5px;
+        border-radius: 20px;
+    } 
+
+    .astronot{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        background-color: #8FC5ED;
+        height: 221px;
+        width: 288.5px;
+        border-radius: 20px;
+    }
+
+    .box_bawah img{
+        height: 213px;
+        width: 213px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    
+    .box_bawah p{
+        font-family: poppins;
+        font-size: 0px;
+        font-weight: 500;
+    
+    }
+    
+    .astronot button{
+        font-family: poppins;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        background-color: #275E87;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 212px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        margin-top: -60px;
+    }
+
+    .pembalap button{
+        font-family: poppins;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        background-color: #E36415;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 212px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        margin-top: -60px;
+    }
+}
+
